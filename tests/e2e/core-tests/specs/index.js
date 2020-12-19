@@ -17,6 +17,7 @@ const runSingleProductPageTest = require( './shopper/front-end-single-product.te
 // Merchant tests
 const runCreateCouponTest = require( './merchant/wp-admin-coupon-new.test' );
 const runCreateOrderTest = require( './merchant/wp-admin-order-new.test' );
+const runEditOrderTest = require( './merchant/wp-admin-order-edit.test' );
 const { runAddSimpleProductTest, runAddVariableProductTest } = require( './merchant/wp-admin-product-new.test' );
 const runUpdateGeneralSettingsTest = require( './merchant/wp-admin-settings-general.test' );
 const runProductSettingsTest = require( './merchant/wp-admin-settings-product.test' );
@@ -42,6 +43,7 @@ const runShopperTests = () => {
 const runMerchantTests = () => {
 	runCreateCouponTest();
 	runCreateOrderTest();
+	runEditOrderTest();
 	runAddSimpleProductTest();
 	runAddVariableProductTest();
 	runUpdateGeneralSettingsTest();
@@ -65,6 +67,7 @@ module.exports = {
 	runShopperTests,
 	runCreateCouponTest,
 	runCreateOrderTest,
+	runEditOrderTest,
 	runAddSimpleProductTest,
 	runAddVariableProductTest,
 	runUpdateGeneralSettingsTest,
