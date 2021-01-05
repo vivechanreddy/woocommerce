@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6db323c812269cb58e44afbd04ee46cb",
+    "content-hash": "a7e4d2197adf3b25a0c7ff54b2c17d5e",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
@@ -50,21 +50,21 @@
         },
         {
             "name": "automattic/jetpack-constants",
-            "version": "v1.5.1",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-constants.git",
-                "reference": "18f772daddc8be5df76c9f4a92e017a3c2569a5b"
+                "reference": "a160dcb0083746578d0efcf78dc276ceb60a0ae8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-constants/zipball/18f772daddc8be5df76c9f4a92e017a3c2569a5b",
-                "reference": "18f772daddc8be5df76c9f4a92e017a3c2569a5b",
+                "url": "https://api.github.com/repos/Automattic/jetpack-constants/zipball/a160dcb0083746578d0efcf78dc276ceb60a0ae8",
+                "reference": "a160dcb0083746578d0efcf78dc276ceb60a0ae8",
                 "shasum": ""
             },
             "require-dev": {
-                "php-mock/php-mock": "^2.1",
-                "phpunit/phpunit": "^5.7 || ^6.5 || ^7.5"
+                "brain/monkey": "2.6.0",
+                "yoast/phpunit-polyfills": "0.2.0"
             },
             "type": "library",
             "autoload": {
@@ -78,9 +78,9 @@
             ],
             "description": "A wrapper for defining constants in a more testable way.",
             "support": {
-                "source": "https://github.com/Automattic/jetpack-constants/tree/v1.5.1"
+                "source": "https://github.com/Automattic/jetpack-constants/tree/v1.6.0"
             },
-            "time": "2020-10-28T19:00:31+00:00"
+            "time": "2020-12-14T08:16:40+00:00"
         },
         {
             "name": "composer/installers",
