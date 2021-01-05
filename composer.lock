@@ -4,11 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6db323c812269cb58e44afbd04ee46cb",
+    "content-hash": "ee238123d562161b1b08658d8d39c5f5",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
-            "version": "v2.7.1",
+            "version": "v2.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-autoloader.git",
@@ -44,7 +44,7 @@
             ],
             "description": "Creates a custom autoloader for a plugin or theme.",
             "support": {
-                "source": "https://github.com/Automattic/jetpack-autoloader/tree/v2.7.1"
+                "source": "https://github.com/Automattic/jetpack-autoloader/tree/v2.8.0"
             },
             "time": "2020-12-18T22:33:59+00:00"
         },
